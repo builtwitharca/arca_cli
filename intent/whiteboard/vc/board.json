@@ -1,5 +1,5 @@
 {
-  "schema": "intent/board@3.0",
+  "schema": "intent/board@4.1",
   "node": {
     "moniker": "vc",
     "name": "Validation Claude",
@@ -167,5 +167,6 @@
       "recorded_at": "2026-09-21T15:54:05.606Z"
     }
   ],
-  "messages": []
+  "sent": [],
+  "handled": []
 }
