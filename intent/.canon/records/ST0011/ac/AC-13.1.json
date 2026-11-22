@@ -1,0 +1,8 @@
+{
+  "id": "AC-13.1",
+  "text": "(test) When configuration cannot be loaded, the `error:` line names why, and both commands that read settings give the same reason for the same failure",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

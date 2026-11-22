@@ -1,0 +1,8 @@
+{
+  "id": "AC-06.3",
+  "text": "`dev.info` and `dev.deps` produce truthful output in the escript: no crash, no fabricated list",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

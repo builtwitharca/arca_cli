@@ -1,0 +1,10 @@
+{
+  "id": "AT-11.5",
+  "kind": "test",
+  "file": "test/arca_cli/output/plain_renderer_test.exs",
+  "covers": [
+    "AC-11.3"
+  ],
+  "status": "green",
+  "note": "describe \"render_item/1 - table width\" (2 tests) -- Asserts the renderer copes at 40 columns and that a wide width keeps every column on one line, which is the property the five pinned order tests depend on."
+}

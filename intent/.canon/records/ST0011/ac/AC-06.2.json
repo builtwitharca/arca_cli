@@ -1,0 +1,8 @@
+{
+  "id": "AC-06.2",
+  "text": "`sys.cmd` propagates the OS exit status (`sys.cmd false` exits non-zero)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

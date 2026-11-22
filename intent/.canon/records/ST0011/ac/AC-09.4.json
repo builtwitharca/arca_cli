@@ -1,0 +1,8 @@
+{
+  "id": "AC-09.4",
+  "text": "Every documented `expected.out` pattern in the fixture framework actually matches, and still discriminates against non-matching input (finding A14)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

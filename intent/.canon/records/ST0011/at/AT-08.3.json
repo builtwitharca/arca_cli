@@ -1,0 +1,10 @@
+{
+  "id": "AT-08.3",
+  "kind": "test",
+  "file": "test/arca_cli/exit_code_test.exs",
+  "covers": [
+    "AC-08.3"
+  ],
+  "status": "green",
+  "note": "(18 tests, \"commands that report failure as a plain string\" describe)"
+}

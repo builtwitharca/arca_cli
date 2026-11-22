@@ -1,0 +1,10 @@
+{
+  "id": "AT-14.1",
+  "kind": "test",
+  "file": "test/arca_cli/config_contract_test.exs",
+  "covers": [
+    "AC-14.1"
+  ],
+  "status": "green",
+  "note": "describe \"the facade surface arca_cli calls\" (4 tests) -- One test per call site rather than one omnibus assertion, so a bump names which function went rather than reporting that something did."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "AC-03.3",
+  "text": "Two configurators registering the same command name resolve to the SAME module in both parse and dispatch (last-registered wins)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

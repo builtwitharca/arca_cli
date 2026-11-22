@@ -1,0 +1,9 @@
+{
+  "id": "AC-14.4",
+  "text": "No shipped documentation instructs a reader to call a function absent from the pinned dependency",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "`cli_command_helper.ex` `@moduledoc` ((A31). The example called `Arca.Config.get_config_location/0`, which is not defined anywhere in the pinned arca_config (`function_exported?` false at runtime) and exists only in the unreleased one; `cli_command_helper.ex` ships in `lib/`. It now uses `Arca.Config.Cfg.config_file/0`, present in both.)"
+  }
+}

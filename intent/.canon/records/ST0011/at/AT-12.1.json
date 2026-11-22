@@ -1,0 +1,10 @@
+{
+  "id": "AT-12.1",
+  "kind": "test",
+  "file": "test/arca_cli/output/renderer_parity_test.exs",
+  "covers": [
+    "AC-12.1"
+  ],
+  "status": "green",
+  "note": "the `@outcome_table` rows (8 tests) -- This table exists because AT-12.2 compares the renderers against `Ctx.outcome/1`, which proves the four sites AGREE but cannot prove the authority is right: both sides would move together. The expected outcomes here are literals, so a change to `Ctx.outcome/1` has to be argued for in this table rather than silently ratified by the tests that depend on it."
+}

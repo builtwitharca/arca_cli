@@ -1,0 +1,11 @@
+{
+  "id": "AT-01.2",
+  "kind": "test",
+  "covers": [
+    "AC-01.2"
+  ],
+  "status": "green",
+  "legacy": {
+    "raw": "test/arca_cli/exit_code_test.exs::\"context status drives exit status\" (2 tests) + test/arca_cli/run_entry_test.exs::\"run/1 outcome\" (7 tests)"
+  }
+}

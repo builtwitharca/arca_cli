@@ -1,0 +1,9 @@
+{
+  "id": "AC-10.3",
+  "text": "VERSION reads 0.5.0; issue 0001 closed with a Resolutions section referencing ST0011",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "`intent issues show 0001` (The Resolutions section records the one deliberate departure from the issue's proposed fix (halt in `main/1` rather than at the escript boundary, so downstream inherits the fix from a dependency bump alone) and names the four remaining A13-class instances rather than implying the class is fully closed. Its reproduction claim was re-run against the built escript: exit 1.)"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AT-04.1",
+  "kind": "test",
+  "file": "test/arca_cli/output/purity_test.exs",
+  "covers": [
+    "AC-04.1"
+  ],
+  "status": "green",
+  "note": "(7 tests)"
+}

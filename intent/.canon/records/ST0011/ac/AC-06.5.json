@@ -1,0 +1,8 @@
+{
+  "id": "AC-06.5",
+  "text": "A `namespace_command`-generated handle returns the block value (not `[do: value]`) and the module lives under the caller's namespace",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

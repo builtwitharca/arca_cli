@@ -1,0 +1,10 @@
+{
+  "id": "AT-08.1",
+  "kind": "test",
+  "file": "test/arca_cli/error_format_test.exs",
+  "covers": [
+    "AC-08.1"
+  ],
+  "status": "green",
+  "note": "(24 tests)"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "AT-09.2",
+  "kind": "test",
+  "covers": [
+    "AC-09.2"
+  ],
+  "status": "green",
+  "note": "Written in place of the planned new file: the existing test was the defect, accepting any of three outputs including the fabricated one, so replacing it removes the false green rather than leaving it beside a new test.",
+  "legacy": {
+    "raw": "test/arca_cli/cli/arca_cli_test.exs::\"settings.all reports the settings actually in force\""
+  }
+}

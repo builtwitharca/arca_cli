@@ -1,0 +1,10 @@
+{
+  "id": "AT-13.1",
+  "kind": "test",
+  "file": "test/arca_cli/config_diagnosis_test.exs",
+  "covers": [
+    "AC-13.1"
+  ],
+  "status": "green",
+  "note": "describe \"a load failure reports its reason (A29)\" -- Drives a real unparseable config file through a subprocess rather than mocking the config server, which is possible because the corrupt-file trigger works on the pinned dependency."
+}

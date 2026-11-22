@@ -1,0 +1,8 @@
+{
+  "id": "AC-14.1",
+  "text": "(test) The arca_config surface arca_cli depends on is stated in one place and asserted, so a dependency bump that removes or renames any of it fails a test rather than a user's command",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "AC-06.7",
+  "text": "No user-supplied string reaches `String.to_atom/1`: repeatedly issuing distinct unknown commands in one REPL session leaves the atom count flat (finding C11; `arca_cli.ex:468`, `help.ex:81,217`, `ctx.ex:377`)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

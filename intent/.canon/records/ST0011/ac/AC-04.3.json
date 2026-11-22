@@ -1,0 +1,8 @@
+{
+  "id": "AC-04.3",
+  "text": "Piped escript output preserves UTF-8 content (emoji arrives as its UTF-8 bytes, not `\\x{...}` text)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

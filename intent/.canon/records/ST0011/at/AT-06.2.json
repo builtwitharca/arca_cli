@@ -1,0 +1,10 @@
+{
+  "id": "AT-06.2",
+  "kind": "test",
+  "file": "test/arca_cli/commands/sys_cmd_test.exs",
+  "covers": [
+    "AC-06.2"
+  ],
+  "status": "green",
+  "note": "(same file)"
+}

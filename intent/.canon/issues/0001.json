@@ -1,6 +1,6 @@
 {
-  "schema": "intent/issue@3.0",
-  "number": 1,
+  "schema": "intent/issue@4.0",
+  "id": "0001",
   "slug": "every-command-exits-0-main-1-hardcodes-ok-and",
   "title": "Every command exits 0: main/1 hardcodes :ok and nothing calls System.halt",
   "status": "closed",

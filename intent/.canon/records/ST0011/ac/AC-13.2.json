@@ -1,0 +1,8 @@
+{
+  "id": "AC-13.2",
+  "text": "(test) No exception struct reaches user-facing output on a configuration failure",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "AT-14.2",
+  "kind": "test",
+  "file": "test/arca_cli/config_contract_test.exs",
+  "covers": [
+    "AC-14.1",
+    "AC-14.3"
+  ],
+  "status": "green",
+  "note": "describe \"the Server internals arca_cli reaches for\" (2 tests) -- Held separate from the facade list so that reaching past the public module stays visible as an exception rather than becoming precedent. vc established that arca_config's own contract test pins neither of these."
+}

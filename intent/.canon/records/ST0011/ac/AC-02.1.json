@@ -1,0 +1,8 @@
+{
+  "id": "AC-02.1",
+  "text": "`--version` prints the name plus the exact content of the VERSION file and exits 0",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "AC-05.1",
+  "text": "With the History process down, History client functions return `{:error, :history_not_available, _}` instead of exiting the caller",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

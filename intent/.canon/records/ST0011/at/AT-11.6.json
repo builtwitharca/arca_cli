@@ -1,0 +1,10 @@
+{
+  "id": "AT-11.6",
+  "kind": "test",
+  "file": "test/arca_cli/history/degradation_test.exs",
+  "covers": [
+    "AC-11.1"
+  ],
+  "status": "green",
+  "note": "describe \"sys.flush with History down\" (3 tests) -- Lives beside the unregister seam that makes it possible rather than with the other A13 coverage, because a failure branch is only covered if something can drive it. Added after vc proved the first A24 fix inert."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "AT-11.2",
+  "kind": "test",
+  "covers": [
+    "AC-11.1"
+  ],
+  "status": "green",
+  "note": "Carries its own control test, so a scanner that silently matched nothing could not report the invariant as satisfied. What it proves is bounded and stated in the file: these four constructs cannot return, not that a new one cannot appear.",
+  "legacy": {
+    "raw": "test/arca_cli/outcome_channel_test.exs, describe \"gate: the failure-as-display-text constructs stay gone\" (2 tests)"
+  }
+}

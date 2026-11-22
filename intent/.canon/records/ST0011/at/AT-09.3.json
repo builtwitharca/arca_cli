@@ -1,0 +1,12 @@
+{
+  "id": "AT-09.3",
+  "kind": "test",
+  "covers": [
+    "AC-09.3"
+  ],
+  "status": "green",
+  "note": "717 green, 10 consecutive runs (6 piped, 4 pty). -- The AC has two halves and they need different kinds of evidence: that the mechanism is gone is a property of the source, asserted by this test; that the suite is green without it is the run itself",
+  "legacy": {
+    "raw": "test/arca_cli/no_test_env_gate_test.exs::\"invariant: settings come from configuration, not from application env\""
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "AC-01.2",
+  "text": "A command that calls `Ctx.complete(:error)` causes `run/1` to return `:error` and the escript to exit 1",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

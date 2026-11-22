@@ -1,0 +1,9 @@
+{
+  "id": "AC-14.3",
+  "text": "`Arca.Cli.load_settings/0` reaches the config server through the facade, not `Arca.Config.Server.reload/0`",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "`arca_cli.ex` `load_settings/0` ((A30). `run/1` loads settings before dispatch for every command, so that call was on the path for every invocation of this CLI. `Arca.Config.reload/0` delegates to the identical place and exists in both the pinned and the unreleased arca_config, so this is a pure de-coupling with no behaviour change. Two Server calls remain because no facade equivalent exists in the pinned version)"
+  }
+}

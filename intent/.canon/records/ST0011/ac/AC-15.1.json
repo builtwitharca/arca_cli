@@ -1,0 +1,8 @@
+{
+  "id": "AC-15.1",
+  "text": "(test) No arca_config error term reaches user-facing output as an Elixir value; every one is rendered as a sentence",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

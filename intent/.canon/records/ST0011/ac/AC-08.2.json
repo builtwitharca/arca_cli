@@ -1,0 +1,8 @@
+{
+  "id": "AC-08.2",
+  "text": "No user-visible error message renders a plain-string reason inspect-quoted (`\"Key not found\"` class)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

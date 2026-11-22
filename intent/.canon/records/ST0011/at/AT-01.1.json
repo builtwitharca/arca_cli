@@ -1,0 +1,11 @@
+{
+  "id": "AT-01.1",
+  "kind": "test",
+  "covers": [
+    "AC-01.1"
+  ],
+  "status": "green",
+  "legacy": {
+    "raw": "test/arca_cli/exit_code_test.exs::\"failing commands\" + \"succeeding commands\" (8 tests)"
+  }
+}

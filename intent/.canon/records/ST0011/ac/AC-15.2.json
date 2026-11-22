@@ -1,0 +1,8 @@
+{
+  "id": "AC-15.2",
+  "text": "(test) A fresh install with no configuration file runs silently and successfully; only a configuration that exists and cannot be read fails",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

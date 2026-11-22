@@ -1,0 +1,9 @@
+{
+  "id": "AC-10.2",
+  "text": "Exit-code contract documented in user, reference, and deployment guides",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "doc diffs (User guide: the contract and a shell conditional. Reference guide: `main/1` vs `run/1`, the downstream escript pattern, and a table mapping command return values to exit statuses. Deployment guide: CI usage, stream separation, and an upgrade warning.)"
+  }
+}

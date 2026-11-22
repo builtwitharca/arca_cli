@@ -1,0 +1,11 @@
+{
+  "id": "AT-04.3",
+  "kind": "test",
+  "covers": [
+    "AC-04.3"
+  ],
+  "status": "green",
+  "legacy": {
+    "raw": "test/arca_cli/output/io_correctness_test.exs::\"piped output preserves content\" (2 tests)"
+  }
+}

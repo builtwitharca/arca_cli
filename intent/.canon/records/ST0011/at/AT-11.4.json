@@ -1,0 +1,12 @@
+{
+  "id": "AT-11.4",
+  "kind": "test",
+  "covers": [
+    "AC-11.2"
+  ],
+  "status": "green",
+  "note": "The grep invariant is asserted against ANSI-stripped output in the ansi test and raw output in the plain test, because greppability is the actual requirement and escape codes would defeat it.",
+  "legacy": {
+    "raw": "test/arca_cli/output/plain_renderer_test.exs::\"the dialect line names the command when the context has one\" + ::\"the dialect line starts a line, so `grep '^error:'` finds it\""
+  }
+}

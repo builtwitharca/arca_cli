@@ -1,0 +1,9 @@
+{
+  "id": "AC-10.1",
+  "text": "CHANGELOG covers every WP's user-visible change with breaking flags",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "CHANGELOG.md 0.5.0 section (Three breaking areas flagged (exit codes, stdout/ANSI, removed public names), a replacement map for every removed module and function, an embedder note, and a \"Known limitations\" entry naming the four commands that still exit 0 on failure.)"
+  }
+}

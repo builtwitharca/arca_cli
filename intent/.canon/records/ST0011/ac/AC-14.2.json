@@ -1,0 +1,8 @@
+{
+  "id": "AC-14.2",
+  "text": "(test) The liveness probe in `config_available?/0` is pinned, and the pin is checked against what the probe actually names",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

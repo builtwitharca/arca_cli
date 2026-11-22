@@ -1,0 +1,8 @@
+{
+  "id": "AC-06.1",
+  "text": "`sys.cmd` passes each argument separately (`sys.cmd ls -l -a` succeeds) and prints command output exactly once",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

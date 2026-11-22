@@ -1,0 +1,11 @@
+{
+  "id": "AT-00.1",
+  "kind": "test",
+  "covers": [
+    "AC-00.1"
+  ],
+  "status": "green",
+  "legacy": {
+    "raw": "test/arca_cli/eg/eg_exit_code_test.exs::\"downstream wrapper exit codes\" (3 tests)"
+  }
+}

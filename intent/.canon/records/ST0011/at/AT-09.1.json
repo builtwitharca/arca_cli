@@ -1,0 +1,10 @@
+{
+  "id": "AT-09.1",
+  "kind": "test",
+  "file": "test/arca_cli/no_test_env_gate_test.exs",
+  "covers": [
+    "AC-09.1"
+  ],
+  "status": "green",
+  "note": "(4 tests) -- Proven to discriminate: a temporary `Mix.env()` added to `output.ex` turned it red naming `lib/arca_cli/output.ex:217`, and removing it turned it green. Carries its own control test, so a scanner that silently matched nothing could not report the invariant as satisfied."
+}

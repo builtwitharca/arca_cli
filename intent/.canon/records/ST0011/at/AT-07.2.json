@@ -1,0 +1,10 @@
+{
+  "id": "AT-07.2",
+  "kind": "test",
+  "file": "test/arca_cli/dead_code_gate_test.exs",
+  "covers": [
+    "AC-07.2"
+  ],
+  "status": "green",
+  "note": "describe \"dependency prune (AC-07.2)\" (2 tests) -- Split in two because the AC is: absent from `mix.exs` (all ten), and absent from `mix.lock` (only the three with no other dependant). See the AC-07.2 amendment above."
+}

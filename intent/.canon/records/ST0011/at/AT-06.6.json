@@ -1,0 +1,10 @@
+{
+  "id": "AT-06.6",
+  "kind": "test",
+  "file": "test/arca_cli/ctx_usage_test.exs",
+  "covers": [
+    "AC-06.6"
+  ],
+  "status": "green",
+  "note": "(9 tests)"
+}

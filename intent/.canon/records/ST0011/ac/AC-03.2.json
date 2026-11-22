@@ -1,0 +1,8 @@
+{
+  "id": "AC-03.2",
+  "text": "A configurator whose setup raises produces a loud failure naming the configurator; the app's command set is never silently replaced by DftConfigurator's",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

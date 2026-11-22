@@ -1,0 +1,9 @@
+{
+  "id": "AC-11.4",
+  "text": "CHANGELOG documents the six downstream-relevant changes vc's reverse walk found undocumented",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "CHANGELOG.md \"For command authors\" section (Four majors (`execute_command/5` return shape, `BaseSubCommand` error tuples, the `namespace_command` namespace and return-value change, spinner resolution at Ctx build) and two minors (declaration-order argv, exact-match REPL history) in one block addressed to command authors rather than scattered.)"
+  }
+}

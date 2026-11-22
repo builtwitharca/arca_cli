@@ -1,6 +1,6 @@
 {
-  "schema": "intent/issue@3.0",
-  "number": 2,
+  "schema": "intent/issue@4.0",
+  "id": "0002",
   "slug": "enoent-on-a-configured-path-is-reported-as-an-empty-config",
   "title": "\"enoent on a CONFIGURED config path is reported as an empty config, not a bad path\"",
   "status": "closed",

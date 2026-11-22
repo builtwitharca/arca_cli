@@ -1,0 +1,10 @@
+{
+  "id": "AT-12.3",
+  "kind": "test",
+  "file": "test/arca_cli/output/renderer_parity_test.exs",
+  "covers": [
+    "AC-12.3"
+  ],
+  "status": "green",
+  "note": "describe \"the JSON status is the same authority as the exit status\" (8 tests) -- Asserts against `Ctx.outcome/1` for every channel x completion pair, which is what catches the dropped-key case: a never-completed failing context decoded to `nil` before the fix, because the raw status field was `nil` and the nil-rejection removed it from the document."
+}

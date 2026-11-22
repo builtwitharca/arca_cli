@@ -1,0 +1,8 @@
+{
+  "id": "AC-12.1",
+  "text": "(test) Exactly one authority decides whether a context failed: `Arca.Cli.Ctx.outcome/1`, with `Ctx.failed?/1` as its boolean reduction. The OS exit status, the `error:` dialect line in both text renderers, and the JSON status field all derive from it, and no site reimplements the rule",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

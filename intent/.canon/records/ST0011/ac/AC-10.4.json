@@ -1,0 +1,9 @@
+{
+  "id": "AC-10.4",
+  "text": "E1-E8 probe set re-run post-fix with new outcomes recorded",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "impl.md probe table (All eight re-run against the built 0.5.0 escript; table in impl.md.)"
+  }
+}

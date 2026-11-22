@@ -1,0 +1,8 @@
+{
+  "id": "AC-06.6",
+  "text": "Ctx built by in-repo commands carries `command: <atom>` and a map `args`",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

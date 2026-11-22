@@ -1,0 +1,12 @@
+{
+  "id": "AT-11.1",
+  "kind": "test",
+  "covers": [
+    "AC-11.1"
+  ],
+  "status": "green",
+  "note": "that the original config is NOT returned as though injection had succeeded. -- Behavioural, not textual: a malformed args map drives the real `BaseSubCommand` failure branch, and a probe module whose `config/0` returns the wrong shape drives both coordinator branches. The A20 tests assert the negative that matters",
+  "legacy": {
+    "raw": "test/arca_cli/outcome_channel_test.exs, describe \"A18: the shared subcommand base\" (2 tests) + describe \"A20: the configurator coordinator\" (5 tests)"
+  }
+}

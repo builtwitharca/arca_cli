@@ -1,0 +1,8 @@
+{
+  "id": "AC-05.2",
+  "text": "History never exceeds the configured `history_size` (default 100)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

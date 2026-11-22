@@ -1,0 +1,8 @@
+{
+  "id": "AC-12.2",
+  "text": "(test) In both text styles, a line matching `^error:` appears **if and only if** the context failed, across every combination of failure channel and completion state; the `✗` marker renders unconditionally, so gating the dialect line can never swallow a recorded error",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

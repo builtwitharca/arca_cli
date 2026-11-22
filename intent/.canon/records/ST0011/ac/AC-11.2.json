@@ -1,0 +1,8 @@
+{
+  "id": "AC-11.2",
+  "text": "(test) A context that reports failure through **either** of its two channels -- `Ctx.add_error/2` or an `{:error, message}` output item -- emits a line matching `^error:` in the form `error: <command>: <message>` under both text styles, alongside the existing `✗` block; `:json` stays structured and unchanged",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

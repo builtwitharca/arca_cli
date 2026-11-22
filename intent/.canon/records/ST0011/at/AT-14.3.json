@@ -1,0 +1,10 @@
+{
+  "id": "AT-14.3",
+  "kind": "test",
+  "file": "test/arca_cli/config_contract_test.exs",
+  "covers": [
+    "AC-14.2"
+  ],
+  "status": "green",
+  "note": "describe \"the liveness probe\" (2 tests) -- Two assertions, not one: that the probed function exists, and that `config_available?/0` still probes the function this file pins. Without the second, changing the probe would leave the first true of arca_config while no longer describing anything this CLI relies on."
+}

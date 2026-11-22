@@ -1,0 +1,8 @@
+{
+  "id": "AC-09.3",
+  "text": "Full suite green with the `:test_settings` app-env mechanism removed",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

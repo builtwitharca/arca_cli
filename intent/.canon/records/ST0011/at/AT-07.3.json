@@ -1,0 +1,12 @@
+{
+  "id": "AT-07.3",
+  "kind": "test",
+  "covers": [
+    "AC-07.1"
+  ],
+  "status": "green",
+  "note": "It covers the GATE itself and is AC-07.1's positive control rather than another instance of it: without this row, a scanner that silently matched nothing would report every invariant above as satisfied.",
+  "legacy": {
+    "raw": "test/arca_cli/dead_code_gate_test.exs::\"invariant: the scanner finds strings that are genuinely present\""
+  }
+}

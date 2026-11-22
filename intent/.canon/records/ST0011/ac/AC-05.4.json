@@ -1,0 +1,8 @@
+{
+  "id": "AC-05.4",
+  "text": "`cli.script` fails on an unknown command (no fuzzy rewrite) and stops at the first failure unless `--keep-going`",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

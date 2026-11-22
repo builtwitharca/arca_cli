@@ -1,0 +1,10 @@
+{
+  "id": "AT-01.4",
+  "kind": "test",
+  "file": "test/arca_cli/display_regression_test.exs",
+  "covers": [
+    "AC-01.4"
+  ],
+  "status": "green",
+  "note": "(6 tests)"
+}

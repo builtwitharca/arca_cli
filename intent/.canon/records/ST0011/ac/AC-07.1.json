@@ -1,0 +1,8 @@
+{
+  "id": "AC-07.1",
+  "text": "Grep-zero across `lib/` for: `load_config_phase`, `Multiplyer`, `err_cloc`, `err_cfloc`, `REPL_MODE`, `is_repl_mode`, `OK.Pipe`; legacy command modules deleted",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AT-06.5",
+  "kind": "test",
+  "file": "test/arca_cli/commands/namespace_command_helper_test.exs",
+  "covers": [
+    "AC-06.5"
+  ],
+  "status": "green",
+  "note": "(8 tests)"
+}

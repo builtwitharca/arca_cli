@@ -1,0 +1,8 @@
+{
+  "id": "AC-01.1",
+  "text": "A failing command run via the built escript exits with status 1; a succeeding command exits 0",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

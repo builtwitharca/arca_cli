@@ -1,0 +1,8 @@
+{
+  "id": "AC-09.2",
+  "text": "`settings.all` returns real settings under test -- the fabricated test context is deleted",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

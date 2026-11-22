@@ -1,0 +1,12 @@
+{
+  "id": "AT-13.4",
+  "kind": "test",
+  "covers": [
+    "AC-13.1"
+  ],
+  "status": "green",
+  "note": "`config/dotenv.exs` calls `System.put_env/2` under `:dev` and `:test`, overwriting `ARCA_CLI_CONFIG_PATH` from the parent environment, so a child cannot be steered by exporting it. The seam sets it inside the evaluated code, after config evaluation. Without this test a child that never reached the broken config would produce plausible-looking failures.",
+  "legacy": {
+    "raw": "test/arca_cli/config_diagnosis_test.exs::\"invariant: the broken config is the one the CLI reads\""
+  }
+}

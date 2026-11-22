@@ -1,0 +1,11 @@
+{
+  "id": "AT-03.2",
+  "kind": "test",
+  "covers": [
+    "AC-03.2"
+  ],
+  "status": "green",
+  "legacy": {
+    "raw": "test/arca_cli/configurator/truthfulness_test.exs::\"broken configurator fails loudly\" (2 tests)"
+  }
+}

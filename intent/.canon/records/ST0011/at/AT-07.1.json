@@ -1,0 +1,10 @@
+{
+  "id": "AT-07.1",
+  "kind": "test",
+  "file": "test/arca_cli/dead_code_gate_test.exs",
+  "covers": [
+    "AC-07.1"
+  ],
+  "status": "green",
+  "note": "describe \"purged symbols (AC-07.1)\" (7 tests) -- One test per purged cluster rather than one omnibus grep, so a partial revert names which cluster came back."
+}

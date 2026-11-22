@@ -1,0 +1,9 @@
+{
+  "id": "02",
+  "title": "Version truth: single source and working --version",
+  "scope": "S",
+  "status": "done",
+  "objective": "One version, everywhere, and a `--version` flag that prints it. Findings: A2, A3.",
+  "body": "## Deliverables\n\n- `VERSION` file becomes the single source: `config/config.exs` `:version` derives from it (or is removed in favour of `Application.spec(:arca_cli, :vsn)`); `BaseConfigurator` default version derives from the consuming app's spec instead of the \"Arca CLI VERSION\" placeholder.\n- `--version` handled explicitly in `command_line_type/1` / `handle_args/3` (Optimus `:version` result routed, not dropped into the help catch-all); prints name + version, exits 0.\n- `about` prints the real version.\n- Placeholder strings (\"Arca CLI ABOUT\" etc) in `DftConfigurator` replaced with real values or values derived from app env, so `--help`'s description block is truthful too.\n- Tests: `--version` output matches `VERSION` content; `about` output matches `VERSION` content.\n\n## Dependencies\n\n- WP-01 (exit-code plumbing in place so `--version` exits 0 through the same path).",
+  "preamble": ""
+}

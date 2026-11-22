@@ -1,0 +1,8 @@
+{
+  "id": "AC-06.4",
+  "text": "`cli.debug on` persists: a subsequent separate invocation shows debug detail on errors",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "AC-00.1",
+  "text": "A downstream-style wrapper (Eg.Cli escript pattern) inherits correct exit codes from the dep bump alone: a failing command exits non-zero with no downstream code change",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

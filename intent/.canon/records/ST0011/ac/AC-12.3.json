@@ -1,0 +1,8 @@
+{
+  "id": "AC-12.3",
+  "text": "(test) The JSON status field is present for every context and equals `Ctx.outcome/1`, so a machine consumer and the exit status can never disagree",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

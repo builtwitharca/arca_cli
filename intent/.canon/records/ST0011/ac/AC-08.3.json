@@ -1,0 +1,8 @@
+{
+  "id": "AC-08.3",
+  "text": "A command that reports a failure exits non-zero even when it returns its message as a plain string: `settings.get nosuchkey`, `cfg.get nosuchkey` and `cli.redo 999` all exit 1 (finding A13; the `cli.script` and `sys.cmd` legs of the same defect are AC-05.4 and AC-06.2)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

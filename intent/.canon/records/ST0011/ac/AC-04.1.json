@@ -1,0 +1,8 @@
+{
+  "id": "AC-04.1",
+  "text": "A `{:spinner, label, fun}` item's fun executes exactly once per command run under each of ansi, plain, and json styles",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

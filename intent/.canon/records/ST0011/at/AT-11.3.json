@@ -1,0 +1,10 @@
+{
+  "id": "AT-11.3",
+  "kind": "test",
+  "file": "test/arca_cli/output/ansi_renderer_test.exs",
+  "covers": [
+    "AC-11.2"
+  ],
+  "status": "green",
+  "note": "describe \"render/1 with context errors\" (5 tests) -- The first is a regression test for A25 stated as its own assertion (`refute render(ctx) == \"\"`), separate from the dialect assertions, so a future change that renders *something* wrong is distinguishable from one that renders nothing."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AT-05.3",
+  "kind": "test",
+  "file": "test/arca_cli/repl/should_push_test.exs",
+  "covers": [
+    "AC-05.3"
+  ],
+  "status": "green",
+  "note": "(8 tests)"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AT-15.3",
+  "kind": "test",
+  "file": "test/arca_cli/config_diagnosis_test.exs",
+  "covers": [
+    "AC-15.3"
+  ],
+  "status": "green",
+  "note": "the per-command \"states the reason once, not twice\" tests (2) -- Proven to discriminate: restoring the double prefix turns exactly those two rows red and no others."
+}

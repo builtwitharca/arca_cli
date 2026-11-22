@@ -1,0 +1,9 @@
+{
+  "id": "AC-13.3",
+  "text": "The messages this makes visible follow the ratified dialect",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "`arca_cli.ex` `load_settings/0`, lowercased, with `reason_text/1` in place of `inspect/1` (A binary reason is already the message and is used as-is, because `inspect/1` wraps it in quotes the dialect does not carry. **Third instance in this thread of unswallowing a failure exposing wording nobody had read**)"
+  }
+}

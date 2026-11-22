@@ -1,0 +1,11 @@
+{
+  "id": "AT-03.1",
+  "kind": "test",
+  "covers": [
+    "AC-03.1"
+  ],
+  "status": "green",
+  "legacy": {
+    "raw": "test/arca_cli/configurator/truthfulness_test.exs::\"explicit false is honoured\" (4 tests)"
+  }
+}

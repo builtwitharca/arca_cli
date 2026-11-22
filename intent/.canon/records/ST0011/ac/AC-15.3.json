@@ -1,0 +1,8 @@
+{
+  "id": "AC-15.3",
+  "text": "(test) A failure states its reason once",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

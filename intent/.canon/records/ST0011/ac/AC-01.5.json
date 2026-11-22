@@ -1,0 +1,9 @@
+{
+  "id": "AC-01.5",
+  "text": "Halt does not truncate piped stdout",
+  "kind": "non-test",
+  "state": {
+    "is": "satisfied",
+    "evidence": "`cmd | cat` and `cmd > file` transcripts in impl.md"
+  }
+}

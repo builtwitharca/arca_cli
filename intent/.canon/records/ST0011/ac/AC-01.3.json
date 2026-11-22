@@ -1,0 +1,8 @@
+{
+  "id": "AC-01.3",
+  "text": "`run/1` never halts the VM; `main/1` halts only for non-`:ok` outcomes",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

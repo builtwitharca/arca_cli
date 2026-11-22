@@ -1,0 +1,8 @@
+{
+  "id": "AC-02.2",
+  "text": "`about` output contains the VERSION file content and no placeholder strings (\"Arca CLI VERSION\" family)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

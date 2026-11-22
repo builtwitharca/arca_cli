@@ -1,0 +1,12 @@
+{
+  "id": "AT-15.1",
+  "kind": "test",
+  "covers": [
+    "AC-15.1"
+  ],
+  "status": "green",
+  "note": "Not a new test: it is the existing dialect assertion, which went red at the bump naming the raw tuple it had started printing. A test that already asserted the right thing and simply began failing is the best possible evidence that the contract changed.",
+  "legacy": {
+    "raw": "test/arca_cli/error_format_test.exs::\"failure: a setting that does not exist\""
+  }
+}

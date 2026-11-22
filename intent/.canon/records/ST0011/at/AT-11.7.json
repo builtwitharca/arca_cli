@@ -1,0 +1,10 @@
+{
+  "id": "AT-11.7",
+  "kind": "test",
+  "file": "test/arca_cli/output/renderer_parity_test.exs",
+  "covers": [
+    "AC-11.2"
+  ],
+  "status": "green",
+  "note": "the `@failure_channels` x `@text_styles` cross-product (4 tests) + describe \"the dialect line means failure, not decoration\" (1 test) -- Written as a cross-product rather than as separate assertions because the completeness claim about this dialect has now been wrong twice, and both times the untested *combination* was the broken one. A third failure channel added later needs a row in `@failure_channels` and fails until it has one."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AT-09.4",
+  "kind": "test",
+  "file": "test/arca_cli/testing/cli_fixtures_pattern_test.exs",
+  "covers": [
+    "AC-09.4"
+  ],
+  "status": "green",
+  "note": "(9 tests) -- (fixed early, in WP-02, because it blocked the version fixture)"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "AC-11.1",
+  "text": "(test) The last four A13-class paths return failure through the outcome channel rather than as display text, **and each of those failure branches is reachable** -- `sys.flush` (A24), `cfg.list` (A19), `Arca.Cli.Command.BaseSubCommand` (A18) and `Arca.Cli.Configurator.Coordinator` (A20, both `inject_subcommands/2` and the silently-skipped command in `update_command_names/3`)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AT-04.4",
+  "kind": "test",
+  "file": "test/arca_cli/output/renderer_parity_test.exs",
+  "covers": [
+    "AC-04.4"
+  ],
+  "status": "green",
+  "note": "(37 tests)"
+}

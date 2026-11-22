@@ -1,0 +1,8 @@
+{
+  "id": "AC-05.3",
+  "text": "`settings.get help_url` is recorded in REPL history; bare `history` is not",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

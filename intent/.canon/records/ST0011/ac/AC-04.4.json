@@ -1,0 +1,8 @@
+{
+  "id": "AC-04.4",
+  "text": "Every `Ctx.output_item` type renders under both ansi and plain (or is explicitly typed as style-specific); `{:list, items}` 2-tuple and `{:json, ...}` included",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

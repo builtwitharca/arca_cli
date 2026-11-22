@@ -1,0 +1,10 @@
+{
+  "id": "AT-06.4",
+  "kind": "test",
+  "file": "test/arca_cli/commands/cli_debug_persistence_test.exs",
+  "covers": [
+    "AC-06.4"
+  ],
+  "status": "green",
+  "note": "(9 tests)"
+}

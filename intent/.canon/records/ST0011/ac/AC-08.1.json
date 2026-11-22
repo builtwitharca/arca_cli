@@ -1,0 +1,8 @@
+{
+  "id": "AC-08.1",
+  "text": "Unknown-command, parse-error, error-tuple, and raised-exception paths all emit the single ratified dialect on their first output line",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

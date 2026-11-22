@@ -1,0 +1,8 @@
+{
+  "id": "AC-01.4",
+  "text": "Success and failure display output is unchanged from 0.4.3 for the existing command set (regression corpus over the E-probe commands)",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "AC-03.1",
+  "text": "A configurator declaring `allow_unknown_args: false` and `parse_double_dash: false` reports those values from `config/0` and Optimus enforces them",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

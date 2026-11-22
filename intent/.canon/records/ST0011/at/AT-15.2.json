@@ -1,0 +1,12 @@
+{
+  "id": "AT-15.2",
+  "kind": "test",
+  "covers": [
+    "AC-15.2"
+  ],
+  "status": "green",
+  "note": "the release trap, inside the suite. -- Also pre-existing, also went red at the bump. It drives the built escript, which is why it kept failing after the source was already correct",
+  "legacy": {
+    "raw": "test/arca_cli/commands/cli_debug_persistence_test.exs::\"invariant: a fresh install starts with debug off\""
+  }
+}

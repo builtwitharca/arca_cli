@@ -1,0 +1,8 @@
+{
+  "id": "AC-11.3",
+  "text": "(test) Renderer tests do not depend on the width of the terminal that launched them",
+  "kind": "test",
+  "state": {
+    "is": "computed"
+  }
+}

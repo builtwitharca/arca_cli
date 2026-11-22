@@ -1,0 +1,10 @@
+{
+  "id": "AT-13.3",
+  "kind": "test",
+  "file": "test/arca_cli/config_diagnosis_test.exs",
+  "covers": [
+    "AC-13.1"
+  ],
+  "status": "green",
+  "note": "describe \"a command that does not read configuration\" (2 tests) -- Asserts both halves of the startup-warning behaviour: a config-independent command still exits 0 with a broken config, and the warning it emits names the reason."
+}

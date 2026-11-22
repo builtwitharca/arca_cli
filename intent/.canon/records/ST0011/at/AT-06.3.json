@@ -1,0 +1,10 @@
+{
+  "id": "AT-06.3",
+  "kind": "test",
+  "file": "test/arca_cli/commands/dev_commands_escript_test.exs",
+  "covers": [
+    "AC-06.3"
+  ],
+  "status": "green",
+  "note": "(9 tests)"
+}
